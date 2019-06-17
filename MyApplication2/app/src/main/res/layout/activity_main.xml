@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <SeekBar
+        android:layout_width="450dp"
+        android:layout_height="80dp"
+        android:max="30"
+        android:min="20"
+        android:id="@+id/simpleSeekBar"
+        android:layout_centerInParent="true"
+        android:progressDrawable="@drawable/custom_seekbar"
+        android:thumb="@drawable/ic_mouse_black_24dp"
+
+        />
+
+    <!--<android.support.v4.widget.ContentLoadingProgressBar-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="600dp"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:max="30"-->
+    <!--android:progress="1"-->
+        <!--android:min="20"-->
+        <!--android:progress="60"-->
+        <!--android:id="@+id/simpleSeekBar"-->
+        <!--android:progressDrawable="@drawable/ic_mouse_black_24dp"/>-->
+
+
+
+    <!--<ProgressBar-->
+
+        <!--style="?android:attr/progressBarStyleHorizontal"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:padding="10dp"-->
+        <!--android:layout_height="60dp"-->
+        <!--android:id="@+id/simpleSeekBar"-->
+        <!--android:progressDrawable="@drawable/custom_seekbar"-->
+        <!--/>-->
+    <!--android:progressDrawable="@drawable/custom_progress"-->
+
+</RelativeLayout>
